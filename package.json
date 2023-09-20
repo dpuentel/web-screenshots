@@ -1,0 +1,22 @@
+{
+  "name": "web-screenshots",
+  "version": "1.0.0",
+  "description": "A node express project with an endpoint to generate url screenshots using playwright",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "playwright": "1.38.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}

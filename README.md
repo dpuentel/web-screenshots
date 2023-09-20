@@ -1,5 +1,10 @@
 # Web Screenshots
 
+You can test a demo here: [https://web-screenshot.dpuentel.com/screenshot/password-generator.dpuentel.com](https://web-screenshot.dpuentel.com/screenshot/password-generator.dpuentel.com?width=1920&height=1080)
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/dpuentel/web-screenshots/tree/main)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/dpuentel/web-screenshots/tree/main)
+
 ## 🚀 Project Description
 
 This project is a simple web screenshot tool. From a url, generates a screenshot of the page.

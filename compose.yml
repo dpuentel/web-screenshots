@@ -1,0 +1,14 @@
+services:
+  web-screenshot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    init: true
+    ipc: host
+    environment:
+      - NODE_ENV=production
+      - PORT=${PORT:-3000}
+    ports:
+      - "${PORT:-3000}:${PORT:-3000}"
+

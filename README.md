@@ -58,6 +58,24 @@ pnpm run dev
 pnpm run start
 ```
 
+## 🐳 Docker & Dokploy Deployment
+
+### Docker Compose (Local)
+
+You can run the project locally using Docker Compose:
+
+```bash
+docker compose up -d --build
+```
+
+### Dokploy
+
+1. In Dokploy, create a new **Compose** (or **Application** using `Dockerfile`) service and connect this repository.
+2. If using **Compose**, set the **Compose Path** to `./compose.yml`.
+3. *(Optional)* In the **Environment** tab, set `PORT=3000` (defaults to `3000`).
+4. In the **Domains** tab, add your domain pointing to the `web-screenshot` service on container port `3000`.
+5. Click **Deploy**.
+
 ## 📝 Project Usage
 
 Once the project is running, you can use it to generate screenshots of web pages.
